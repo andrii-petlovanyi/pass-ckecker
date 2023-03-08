@@ -27,11 +27,16 @@
 .icon {
   position: absolute;
   top: 70%;
-  right: 5px;
+  right: 0;
   font-size: 22px;
   transform: translateY(-70%);
 
   background: none;
   border: none;
   color: var(--text-color);
+}
+
+.icon:hover,
+.icon:hover {
+  cursor: pointer;
 }
