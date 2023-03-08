@@ -1,0 +1,18 @@
+.rules {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+}
+
+.rules__list {
+  margin: 0 auto;
+}
+
+.rules__title {
+  font-size: 20px;
+  text-align: center;
+}
+
+.count {
+  color: var(--accent-color);
+}

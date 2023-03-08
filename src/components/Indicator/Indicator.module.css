@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  gap: 3px;
+  align-items: center;
+  justify-content: center;
+}
+
+.indicator {
+  height: 6px;
+  width: 95px;
+  background-color: var(--ind-main);
+  transition: background-color 350ms ease;
+}
+
+.indicator:first-child {
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+
+.indicator:last-child {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.red {
+  background-color: var(--ind-red);
+}
+
+.yellow {
+  background-color: var(--ind-yellow);
+}
+
+.green {
+  background-color: var(--ind-green);
+}

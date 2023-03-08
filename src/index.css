@@ -1,0 +1,29 @@
+:root {
+  --ind-main: gray;
+  --ind-red: red;
+  --ind-yellow: yellow;
+  --ind-green: green;
+
+  --main-bg: #1a202c;
+  --text-color: RGBA(255, 255, 255, 0.64);
+  --accent-color: #805ad5;
+  --accent-color-hover: #976df2;
+}
+
+#root {
+  width: 100%;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+body {
+  background-color: var(--main-bg);
+  color: var(--text-color);
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+}

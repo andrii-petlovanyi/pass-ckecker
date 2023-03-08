@@ -1,0 +1,17 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 968px;
+  margin: 10px auto;
+}
+
+.pass_checker {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pass_checker__title {
+  text-align: center;
+}
