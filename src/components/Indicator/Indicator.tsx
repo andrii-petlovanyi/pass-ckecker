@@ -3,11 +3,11 @@ import cn from "classnames";
 
 import styles from "./Indicator.module.css";
 
-interface IIndicator {
+interface IIndicatorProps {
   error: string;
 }
 
-export const Indicator = ({ error }: IIndicator): JSX.Element => {
+export const Indicator = ({ error }: IIndicatorProps): JSX.Element => {
   return (
     <div className={styles.container}>
       <div
